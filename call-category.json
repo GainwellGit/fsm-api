@@ -3,15 +3,21 @@
     "msg": "Success",
     "data": [
         {
+            "id": 3,
+            "category_code": "O",
+            "category_name": "OEM",
+            "description": ""
+        },
+        {
             "id": 2,
-            "category_code": "c02",
-            "category_name": "Call Category 1",
+            "category_code": "T",
+            "category_name": "Engine",
             "description": ""
         },
         {
             "id": 1,
-            "category_code": "c01",
-            "category_name": "Call Category 1",
+            "category_code": "S",
+            "category_name": "Machine",
             "description": ""
         }
     ]

@@ -4,14 +4,20 @@
     "data": [
         {
             "id": 1,
-            "call_type_code": "ct01",
-            "call_type_name": "Call Type 1",
+            "call_type_code": "YTCC",
+            "call_type_name": "Customer Complaint",
             "description": ""
         },
         {
             "id": 2,
-            "call_type_code": "ct02",
-            "call_type_name": "Call Type 2",
+            "call_type_code": "ZTCP",
+            "call_type_name": "Parts Complaint",
+            "description": ""
+        },
+        {
+            "id": 3,
+            "call_type_code": "ZTCS",
+            "call_type_name": "Other/Equipment Complaint",
             "description": ""
         }
     ]
