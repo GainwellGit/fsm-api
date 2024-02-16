@@ -1,0 +1,14 @@
+{
+    "status": 1,
+    "msg": "Success",
+    "data": [
+        {
+            "id": 1,
+            "status_name": "Running"
+        },
+        {
+            "id": 2,
+            "status_name": "Breakdown"
+        }
+    ]
+}

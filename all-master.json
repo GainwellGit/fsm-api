@@ -1,0 +1,66 @@
+{
+    "status": 1,
+    "msg": "Success",
+    "data": {
+        "call_types": [
+            {
+                "id": 1,
+                "call_type_code": "ct01",
+                "call_type_name": "Call Type 1",
+                "description": ""
+            },
+            {
+                "id": 2,
+                "call_type_code": "ct02",
+                "call_type_name": "Call Type 2",
+                "description": ""
+            }
+        ],
+        "call_categories": [
+            {
+                "id": 2,
+                "category_code": "c02",
+                "category_name": "Call Category 1",
+                "description": ""
+            },
+            {
+                "id": 1,
+                "category_code": "c01",
+                "category_name": "Call Category 1",
+                "description": ""
+            }
+        ],
+        "call_priorities": [
+            {
+                "id": 1,
+                "priority_name": "Urgent"
+            },
+            {
+                "id": 2,
+                "priority_name": "High"
+            },
+            {
+                "id": 3,
+                "priority_name": "Medium"
+            },
+            {
+                "id": 4,
+                "priority_name": "Low"
+            },
+            {
+                "id": 5,
+                "priority_name": "Regular Maintain"
+            }
+        ],
+        "equipment_status": [
+            {
+                "id": 1,
+                "status_name": "Running"
+            },
+            {
+                "id": 2,
+                "status_name": "Breakdown"
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "status": 1,
+    "msg": "Success",
+    "data": [
+        {
+            "id": 1,
+            "cust_id": 1,
+            "equip_model": "CAT-5931533",
+            "machine_category": "CAT",
+            "model_name": "CARTRIDGE AS",
+            "equip_serial_no": "120E96ACFKT",
+            "customer": {
+                "id": 1,
+                "cust_code": 1,
+                "cust_name": "Deep Das",
+                "cust_email": "deep@mailinator.com",
+                "cust_mobile": "7896541230"
+            },
+            "locations": [
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_id": 1,
+                    "longitude": "88.1234578",
+                    "latitude": "22.4567890",
+                    "address": "Kolkata",
+                    "district": "Kolkata",
+                    "state": "West Bengal",
+                    "country": "India",
+                    "equip_serial_no": "120E96ACFKT"
+                }
+            ],
+            "warranty": [
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_id": 1,
+                    "cust_code": 1,
+                    "warranty_till": "2025-12-11T18:30:00.000Z",
+                    "equip_serial_no": "120E96ACFKT"
+                }
+            ],
+            "work_orders": [
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_id": 1,
+                    "cust_code": 1,
+                    "order_date": "2023-12-11T18:30:00.000Z",
+                    "equip_serial_no": "120E96ACFKT"
+                }
+            ],
+            "documents": [
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_id": 1,
+                    "cust_code": 1,
+                    "document_data": "test",
+                    "equip_serial_no": "120E96ACFKT"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "cust_id": 1,
+            "equip_model": "CAT-5050158",
+            "machine_category": "CAT",
+            "model_name": "FILTER-CAB A",
+            "equip_serial_no": "120KE96PM2FKT",
+            "customer": {
+                "id": 1,
+                "cust_code": 1,
+                "cust_name": "Deep Das",
+                "cust_email": "deep@mailinator.com",
+                "cust_mobile": "7896541230"
+            },
+            "locations": [],
+            "warranty": [],
+            "work_orders": [],
+            "documents": []
+        },
+        {
+            "id": 4,
+            "cust_id": 2,
+            "equip_model": "CAT-4621171",
+            "machine_category": "CAT",
+            "model_name": "FILTER-LUBE",
+            "equip_serial_no": "120KE96PM2FOKT",
+            "customer": {
+                "id": 2,
+                "cust_code": 2,
+                "cust_name": "Sandip Sarkar",
+                "cust_email": "sandip@mailinator.com",
+                "cust_mobile": "5250520250"
+            },
+            "locations": [],
+            "warranty": [],
+            "work_orders": [],
+            "documents": []
+        }
+    ]
+}

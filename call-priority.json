@@ -1,0 +1,26 @@
+{
+    "status": 1,
+    "msg": "Success",
+    "data": [
+        {
+            "id": 1,
+            "priority_name": "Urgent"
+        },
+        {
+            "id": 2,
+            "priority_name": "High"
+        },
+        {
+            "id": 3,
+            "priority_name": "Medium"
+        },
+        {
+            "id": 4,
+            "priority_name": "Low"
+        },
+        {
+            "id": 5,
+            "priority_name": "Regular Maintain"
+        }
+    ]
+}

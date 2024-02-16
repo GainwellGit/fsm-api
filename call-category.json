@@ -1,0 +1,18 @@
+{
+    "status": 1,
+    "msg": "Success",
+    "data": [
+        {
+            "id": 2,
+            "category_code": "c02",
+            "category_name": "Call Category 1",
+            "description": ""
+        },
+        {
+            "id": 1,
+            "category_code": "c01",
+            "category_name": "Call Category 1",
+            "description": ""
+        }
+    ]
+}
