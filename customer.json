@@ -28,7 +28,9 @@
                     "equip_model": "CAT-4621171",
                     "machine_category": "CAT",
                     "model_name": "FILTER-LUBE",
-                    "equip_serial_no": "120KE96PM2FOKT"
+                    "equip_serial_no": "120KE96PM2FOKT",
+                    "smu": null,
+                    "smu_date": null
                 }
             ],
             "locations": [],
@@ -58,20 +60,24 @@
             ],
             "equipments": [
                 {
-                    "id": 1,
-                    "cust_id": 1,
-                    "equip_model": "CAT-5931533",
-                    "machine_category": "CAT",
-                    "model_name": "CARTRIDGE AS",
-                    "equip_serial_no": "120E96ACFKT"
-                },
-                {
                     "id": 3,
                     "cust_id": 1,
                     "equip_model": "CAT-5050158",
                     "machine_category": "CAT",
                     "model_name": "FILTER-CAB A",
-                    "equip_serial_no": "120KE96PM2FKT"
+                    "equip_serial_no": "120KE96PM2FKT",
+                    "smu": null,
+                    "smu_date": null
+                },
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_model": "CAT-5931533",
+                    "machine_category": "CAT",
+                    "model_name": "CARTRIDGE AS",
+                    "equip_serial_no": "120E96ACFKT",
+                    "smu": "14123",
+                    "smu_date": "2025-02-13T18:30:00.000Z"
                 }
             ],
             "locations": [
