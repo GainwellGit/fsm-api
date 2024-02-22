@@ -3,77 +3,19 @@
     "msg": "Success",
     "data": [
         {
-            "id": 2,
-            "cust_code": "2",
-            "cust_name": "Shyam Steel",
-            "cust_email": "sandip@mailinator.com",
-            "cust_mobile": "5250520250",
-            "address": [
-                {
-                    "id": 2,
-                    "address_id": 2,
-                    "cust_id": 2,
-                    "address": "23B, Lansdowne Pl, Near Sishu Mangal Hospital, Dover Terrace, Ballygunge, Kolkata",
-                    "address_city": "Kolkata",
-                    "addres_state": "West Bengal",
-                    "address_coutry": "India",
-                    "address_email": "sandip@mailinator.com",
-                    "address_mobile": "5250520250"
-                }
-            ],
-            "equipments": [
-                {
-                    "id": 4,
-                    "cust_id": 2,
-                    "equip_model": "CAT-4621171",
-                    "machine_category": "CAT",
-                    "model_name": "FILTER-LUBE",
-                    "equip_serial_no": "120KE96PM2FOKT"
-                }
-            ],
-            "locations": [],
-            "warranty": [],
-            "work_orders": [],
-            "documents": [],
-            "representatives": []
-        },
-        {
             "id": 1,
-            "cust_code": "1",
-            "cust_name": "Web Spiders",
-            "cust_email": "deep@mailinator.com",
-            "cust_mobile": "7896541230",
-            "address": [
-                {
-                    "id": 1,
-                    "address_id": 1,
-                    "cust_id": 1,
-                    "address": "Salt Lake, BD 25, BD Block, Sector 1, Bidhannagar, Kolkata-700064",
-                    "address_city": "Kolkata",
-                    "addres_state": "West Bengal",
-                    "address_coutry": "India",
-                    "address_email": "deep@mailinator.com",
-                    "address_mobile": "1234567890"
-                }
-            ],
-            "equipments": [
-                {
-                    "id": 1,
-                    "cust_id": 1,
-                    "equip_model": "CAT-5931533",
-                    "machine_category": "CAT",
-                    "model_name": "CARTRIDGE AS",
-                    "equip_serial_no": "120E96ACFKT"
-                },
-                {
-                    "id": 3,
-                    "cust_id": 1,
-                    "equip_model": "CAT-5050158",
-                    "machine_category": "CAT",
-                    "model_name": "FILTER-CAB A",
-                    "equip_serial_no": "120KE96PM2FKT"
-                }
-            ],
+            "cust_id": 1,
+            "equip_model": "CAT-5931533",
+            "machine_category": "CAT",
+            "model_name": "CARTRIDGE AS",
+            "equip_serial_no": "120E96ACFKT",
+            "customer": {
+                "id": 1,
+                "cust_code": "1",
+                "cust_name": "Web Spiders",
+                "cust_email": "deep@mailinator.com",
+                "cust_mobile": "7896541230"
+            },
             "locations": [
                 {
                     "id": 1,
@@ -117,27 +59,45 @@
                     "document_data": "test",
                     "equip_serial_no": "120E96ACFKT"
                 }
-            ],
-            "representatives": [
-                {
-                    "id": 1,
-                    "rep_code": "1",
-                    "cust_id": 1,
-                    "rep_name": "Samrat Basak",
-                    "rep_email": "samrat@gmail.com",
-                    "rep_mobile": "8485151511",
-                    "rep_type": "Investor"
-                },
-                {
-                    "id": 2,
-                    "rep_code": "2",
-                    "cust_id": 1,
-                    "rep_name": "Jyoti Basu",
-                    "rep_email": "jyoti@gmail.com",
-                    "rep_mobile": "9512357014",
-                    "rep_type": "Commenter"
-                }
             ]
+        },
+        {
+            "id": 3,
+            "cust_id": 1,
+            "equip_model": "CAT-5050158",
+            "machine_category": "CAT",
+            "model_name": "FILTER-CAB A",
+            "equip_serial_no": "120KE96PM2FKT",
+            "customer": {
+                "id": 1,
+                "cust_code": "1",
+                "cust_name": "Web Spiders",
+                "cust_email": "deep@mailinator.com",
+                "cust_mobile": "7896541230"
+            },
+            "locations": [],
+            "warranty": [],
+            "work_orders": [],
+            "documents": []
+        },
+        {
+            "id": 4,
+            "cust_id": 2,
+            "equip_model": "CAT-4621171",
+            "machine_category": "CAT",
+            "model_name": "FILTER-LUBE",
+            "equip_serial_no": "120KE96PM2FOKT",
+            "customer": {
+                "id": 2,
+                "cust_code": "2",
+                "cust_name": "Shyam Steel",
+                "cust_email": "sandip@mailinator.com",
+                "cust_mobile": "5250520250"
+            },
+            "locations": [],
+            "warranty": [],
+            "work_orders": [],
+            "documents": []
         }
     ]
 }

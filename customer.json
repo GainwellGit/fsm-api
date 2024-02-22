@@ -3,9 +3,44 @@
     "msg": "Success",
     "data": [
         {
+            "id": 2,
+            "cust_code": "2",
+            "cust_name": "Shyam Steel",
+            "cust_email": "sandip@mailinator.com",
+            "cust_mobile": "5250520250",
+            "address": [
+                {
+                    "id": 2,
+                    "address_id": 2,
+                    "cust_id": 2,
+                    "address": "23B, Lansdowne Pl, Near Sishu Mangal Hospital, Dover Terrace, Ballygunge, Kolkata",
+                    "address_city": "Kolkata",
+                    "addres_state": "West Bengal",
+                    "address_coutry": "India",
+                    "address_email": "sandip@mailinator.com",
+                    "address_mobile": "5250520250"
+                }
+            ],
+            "equipments": [
+                {
+                    "id": 4,
+                    "cust_id": 2,
+                    "equip_model": "CAT-4621171",
+                    "machine_category": "CAT",
+                    "model_name": "FILTER-LUBE",
+                    "equip_serial_no": "120KE96PM2FOKT"
+                }
+            ],
+            "locations": [],
+            "warranty": [],
+            "work_orders": [],
+            "documents": [],
+            "representatives": []
+        },
+        {
             "id": 1,
-            "cust_code": 1,
-            "cust_name": "Deep Das",
+            "cust_code": "1",
+            "cust_name": "Web Spiders",
             "cust_email": "deep@mailinator.com",
             "cust_mobile": "7896541230",
             "address": [
@@ -13,7 +48,7 @@
                     "id": 1,
                     "address_id": 1,
                     "cust_id": 1,
-                    "address": "Kolkata",
+                    "address": "Salt Lake, BD 25, BD Block, Sector 1, Bidhannagar, Kolkata-700064",
                     "address_city": "Kolkata",
                     "addres_state": "West Bengal",
                     "address_coutry": "India",
@@ -44,9 +79,9 @@
                     "id": 1,
                     "cust_id": 1,
                     "equip_id": 1,
-                    "longitude": "88.1234578",
-                    "latitude": "22.4567890",
-                    "address": "Kolkata",
+                    "longitude": "88.454100",
+                    "latitude": "22.574280",
+                    "address": "Premises No. 14-360, Plot No. DH-6/8, Street No. 360, Action Area- 1D, New Town, Rajarhat, Kolkata- 700 156",
                     "district": "Kolkata",
                     "state": "West Bengal",
                     "country": "India",
@@ -86,7 +121,7 @@
             "representatives": [
                 {
                     "id": 1,
-                    "rep_code": 1,
+                    "rep_code": "1",
                     "cust_id": 1,
                     "rep_name": "Samrat Basak",
                     "rep_email": "samrat@gmail.com",
@@ -95,7 +130,7 @@
                 },
                 {
                     "id": 2,
-                    "rep_code": 2,
+                    "rep_code": "2",
                     "cust_id": 1,
                     "rep_name": "Jyoti Basu",
                     "rep_email": "jyoti@gmail.com",
@@ -103,29 +138,6 @@
                     "rep_type": "Commenter"
                 }
             ]
-        },
-        {
-            "id": 2,
-            "cust_code": 2,
-            "cust_name": "Sandip Sarkar",
-            "cust_email": "sandip@mailinator.com",
-            "cust_mobile": "5250520250",
-            "address": [],
-            "equipments": [
-                {
-                    "id": 4,
-                    "cust_id": 2,
-                    "equip_model": "CAT-4621171",
-                    "machine_category": "CAT",
-                    "model_name": "FILTER-LUBE",
-                    "equip_serial_no": "120KE96PM2FOKT"
-                }
-            ],
-            "locations": [],
-            "warranty": [],
-            "work_orders": [],
-            "documents": [],
-            "representatives": []
         }
     ]
 }
