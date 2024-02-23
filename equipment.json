@@ -32,9 +32,36 @@
                     "equip_serial_no": "120E96ACFKT"
                 }
             ],
-            "warranty": [],
-            "work_orders": [],
-            "documents": []
+            "warranty": [
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_id": 1,
+                    "cust_code": 1,
+                    "warranty_till": "2025-12-11T18:30:00.000Z",
+                    "equip_serial_no": "120E96ACFKT"
+                }
+            ],
+            "work_orders": [
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_id": 1,
+                    "cust_code": 1,
+                    "order_date": "2023-12-11T18:30:00.000Z",
+                    "equip_serial_no": "120E96ACFKT"
+                }
+            ],
+            "documents": [
+                {
+                    "id": 1,
+                    "cust_id": 1,
+                    "equip_id": 1,
+                    "cust_code": 1,
+                    "document_data": "test",
+                    "equip_serial_no": "120E96ACFKT"
+                }
+            ]
         },
         {
             "id": 3,
@@ -52,7 +79,20 @@
                 "cust_email": "deep@mailinator.com",
                 "cust_mobile": "7896541230"
             },
-            "locations": [],
+            "locations": [
+                {
+                    "id": 2,
+                    "cust_id": 1,
+                    "equip_id": 3,
+                    "longitude": "80.229110",
+                    "latitude": "26.509340",
+                    "address": "93-H, IIT Gate, Kalyanpur, Kanpur-208016",
+                    "district": "Kanpur",
+                    "state": "Uttar Pradesh",
+                    "country": "India",
+                    "equip_serial_no": "120KE96PM2FKT"
+                }
+            ],
             "warranty": [],
             "work_orders": [],
             "documents": []
@@ -73,7 +113,20 @@
                 "cust_email": "sandip@mailinator.com",
                 "cust_mobile": "5250520250"
             },
-            "locations": [],
+            "locations": [
+                {
+                    "id": 3,
+                    "cust_id": 2,
+                    "equip_id": 4,
+                    "longitude": "82.541770",
+                    "latitude": "19.254940",
+                    "address": "Sunil, Bank Colony Rd, Nabarangapur-764059",
+                    "district": "Nabarangapur",
+                    "state": "Odisha",
+                    "country": "India",
+                    "equip_serial_no": "120KE96PM2FOKT"
+                }
+            ],
             "warranty": [],
             "work_orders": [],
             "documents": []
