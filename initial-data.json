@@ -1,0 +1,102 @@
+{
+    "status": 1,
+    "msg": "Success",
+    "data": {
+        "call_types": [
+            {
+                "id": 1,
+                "call_type_code": "YTCC",
+                "call_type_name": "Customer Complaint",
+                "description": "",
+                "display_order": null,
+                "is_active": null,
+                "created_by": null,
+                "created_date": null
+            },
+            {
+                "id": 3,
+                "call_type_code": "ZTCS",
+                "call_type_name": "Other/Equipment Complaint",
+                "description": "",
+                "display_order": null,
+                "is_active": null,
+                "created_by": null,
+                "created_date": null
+            },
+            {
+                "id": 2,
+                "call_type_code": "ZTCP",
+                "call_type_name": "Parts Complaint",
+                "description": "",
+                "display_order": null,
+                "is_active": null,
+                "created_by": null,
+                "created_date": null
+            }
+        ],
+        "call_categories": [
+            {
+                "id": 2,
+                "category_code": "T",
+                "category_name": "Engine",
+                "description": "",
+                "display_order": null,
+                "is_active": null,
+                "created_by": null,
+                "created_date": null
+            },
+            {
+                "id": 1,
+                "category_code": "S",
+                "category_name": "Machine",
+                "description": "",
+                "display_order": null,
+                "is_active": null,
+                "created_by": null,
+                "created_date": null
+            },
+            {
+                "id": 3,
+                "category_code": "O",
+                "category_name": "OEM",
+                "description": "",
+                "display_order": null,
+                "is_active": null,
+                "created_by": null,
+                "created_date": null
+            }
+        ],
+        "call_priorities": [
+            {
+                "id": 2,
+                "priority_name": "High"
+            },
+            {
+                "id": 4,
+                "priority_name": "Low"
+            },
+            {
+                "id": 3,
+                "priority_name": "Medium"
+            },
+            {
+                "id": 5,
+                "priority_name": "Regular Maintain"
+            },
+            {
+                "id": 1,
+                "priority_name": "Urgent"
+            }
+        ],
+        "equipment_status": [
+            {
+                "id": 2,
+                "status_name": "Breakdown"
+            },
+            {
+                "id": 1,
+                "status_name": "Running"
+            }
+        ]
+    }
+}
