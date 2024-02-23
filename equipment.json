@@ -10,7 +10,7 @@
             "model_name": "CARTRIDGE AS",
             "equip_serial_no": "120E96ACFKT",
             "smu": "14123",
-            "smu_date": "2024-02-13",
+            "smu_date": "2024-02-13T18:30:00.000Z",
             "customer": {
                 "id": 1,
                 "cust_code": "1",
@@ -61,7 +61,8 @@
                     "document_data": "test",
                     "equip_serial_no": "120E96ACFKT"
                 }
-            ]
+            ],
+            "faults": []
         },
         {
             "id": 3,
@@ -71,7 +72,7 @@
             "model_name": "FILTER-CAB A",
             "equip_serial_no": "120KE96PM2FKT",
             "smu": "500",
-            "smu_date": "2023-10-27",
+            "smu_date": "2023-10-27T18:30:00.000Z",
             "customer": {
                 "id": 1,
                 "cust_code": "1",
@@ -95,7 +96,8 @@
             ],
             "warranty": [],
             "work_orders": [],
-            "documents": []
+            "documents": [],
+            "faults": []
         },
         {
             "id": 4,
@@ -105,7 +107,7 @@
             "model_name": "FILTER-LUBE",
             "equip_serial_no": "120KE96PM2FOKT",
             "smu": "8526",
-            "smu_date": "2024-01-05",
+            "smu_date": "2024-01-05T18:30:00.000Z",
             "customer": {
                 "id": 2,
                 "cust_code": "2",
@@ -129,7 +131,8 @@
             ],
             "warranty": [],
             "work_orders": [],
-            "documents": []
+            "documents": [],
+            "faults": []
         }
     ]
 }
