@@ -10,7 +10,8 @@
             "model_name": "CARTRIDGE AS",
             "equip_serial_no": "120E96ACFKT",
             "smu": "14123",
-            "smu_date": "2024-02-13T18:30:00.000Z",
+            "smu_date": "2024-02-13",
+            "purchase_date": "2023-05-15",
             "customer": {
                 "id": 1,
                 "cust_code": "1",
@@ -38,7 +39,7 @@
                     "cust_id": 1,
                     "equip_id": 1,
                     "cust_code": 1,
-                    "warranty_till": "2025-12-11T18:30:00.000Z",
+                    "warranty_till": "2025-12-11",
                     "equip_serial_no": "120E96ACFKT"
                 }
             ],
@@ -48,7 +49,7 @@
                     "cust_id": 1,
                     "equip_id": 1,
                     "cust_code": 1,
-                    "order_date": "2023-12-11T18:30:00.000Z",
+                    "order_date": "2023-12-11",
                     "equip_serial_no": "120E96ACFKT"
                 }
             ],
@@ -62,7 +63,15 @@
                     "equip_serial_no": "120E96ACFKT"
                 }
             ],
-            "faults": []
+            "faults": [
+                {
+                    "id": 1,
+                    "fault_code": 1,
+                    "fault_description": "test",
+                    "fault_priority": "Red",
+                    "fault_date": "2023-12-11"
+                }
+            ]
         },
         {
             "id": 3,
@@ -72,7 +81,8 @@
             "model_name": "FILTER-CAB A",
             "equip_serial_no": "120KE96PM2FKT",
             "smu": "500",
-            "smu_date": "2023-10-27T18:30:00.000Z",
+            "smu_date": "2023-10-27",
+            "purchase_date": "2022-09-26",
             "customer": {
                 "id": 1,
                 "cust_code": "1",
@@ -97,7 +107,15 @@
             "warranty": [],
             "work_orders": [],
             "documents": [],
-            "faults": []
+            "faults": [
+                {
+                    "id": 1,
+                    "fault_code": 1,
+                    "fault_description": "test",
+                    "fault_priority": "Red",
+                    "fault_date": "2023-12-11"
+                }
+            ]
         },
         {
             "id": 4,
@@ -107,7 +125,8 @@
             "model_name": "FILTER-LUBE",
             "equip_serial_no": "120KE96PM2FOKT",
             "smu": "8526",
-            "smu_date": "2024-01-05T18:30:00.000Z",
+            "smu_date": "2024-01-05",
+            "purchase_date": "2022-12-17",
             "customer": {
                 "id": 2,
                 "cust_code": "2",
@@ -132,7 +151,15 @@
             "warranty": [],
             "work_orders": [],
             "documents": [],
-            "faults": []
+            "faults": [
+                {
+                    "id": 1,
+                    "fault_code": 1,
+                    "fault_description": "test",
+                    "fault_priority": "Red",
+                    "fault_date": "2023-12-11"
+                }
+            ]
         }
     ]
 }
