@@ -66,10 +66,10 @@
             "faults": [
                 {
                     "id": 1,
-                    "fault_code": 1,
-                    "fault_description": "test",
+                    "fault_code": "Mid 36 Engine Control #FMI289",
+                    "fault_description": "Low system air pressure",
                     "fault_priority": "Red",
-                    "fault_date": "2023-12-11"
+                    "fault_date": "2023-12-11 16:36:00"
                 }
             ]
         },
@@ -110,10 +110,10 @@
             "faults": [
                 {
                     "id": 1,
-                    "fault_code": 1,
-                    "fault_description": "test",
+                    "fault_code": "Mid 36 Engine Control #FMI289",
+                    "fault_description": "Low system air pressure",
                     "fault_priority": "Red",
-                    "fault_date": "2023-12-11"
+                    "fault_date": "2023-12-11 16:36:00"
                 }
             ]
         },
@@ -154,10 +154,10 @@
             "faults": [
                 {
                     "id": 1,
-                    "fault_code": 1,
-                    "fault_description": "test",
+                    "fault_code": "Mid 36 Engine Control #FMI289",
+                    "fault_description": "Low system air pressure",
                     "fault_priority": "Red",
-                    "fault_date": "2023-12-11"
+                    "fault_date": "2023-12-11 16:36:00"
                 }
             ]
         }
